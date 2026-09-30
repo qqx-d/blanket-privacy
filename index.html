@@ -14,18 +14,18 @@
   h2 { font-size:1.15rem; margin:28px 0 8px; }
   .meta { color:var(--muted); margin:0 0 24px; }
   a { color:var(--accent); }
-  nav { display:flex; gap:12px; margin-bottom:24px; }
+  nav { display:flex; flex-wrap:wrap; gap:12px; margin-bottom:24px; }
   section + section { border-top:1px solid var(--line); margin-top:48px; padding-top:32px; }
   ul { padding-left:1.2em; }
 </style>
 </head>
 <body>
 <main>
-<nav><a href="#en">English</a><a href="#ru">Русский</a></nav>
+<nav><a href="#en">English</a><a href="#ru">Русский</a><a href="#delete">Delete my data</a><a href="#delete-ru">Удалить мои данные</a></nav>
 
 <section id="en" lang="en">
 <h1>Privacy Policy — Who Stole the Blanket?</h1>
-<p class="meta">Developer: qqx · Contact: <a href="mailto:m0.dimalebedev@gmail.com">m0.dimalebedev@gmail.com</a> · Last updated: 29 September 2026</p>
+<p class="meta">Developer: qqx · Contact: <a href="mailto:m0.dimalebedev@gmail.com">m0.dimalebedev@gmail.com</a> · Last updated: 30 September 2026</p>
 
 <p>This policy explains what data the mobile game “Who Stole the Blanket?” (package <code>com.qqx.blanket</code>, “the Game”) processes and why. The Game has no accounts, no chat and no in-game purchases. We do not ask for your name, email, location or contacts.</p>
 
@@ -61,11 +61,20 @@
 
 <h2>9. Contact</h2>
 <p><a href="mailto:m0.dimalebedev@gmail.com">m0.dimalebedev@gmail.com</a></p>
+<h2 id="delete">10. How to delete your data — Who Stole the Blanket?</h2>
+<p>The Game (developer: qqx) has no accounts, so deletion works through your device’s advertising ID:</p>
+<ol>
+  <li><b>Local data</b> (progress, stars, hints, settings): uninstall the Game, or open Android Settings → Apps → Who Stole the Blanket? → Storage → Clear data. It is deleted immediately.</li>
+  <li><b>Analytics data</b> (GameAnalytics): find your advertising ID in Android Settings → Google → All services → Ads (or Settings → Privacy → Ads).</li>
+  <li>Email <a href="mailto:m0.dimalebedev@gmail.com?subject=Delete%20my%20data%20-%20Who%20Stole%20the%20Blanket%3F">m0.dimalebedev@gmail.com</a> with the subject “Delete my data — Who Stole the Blanket?” and include that advertising ID.</li>
+  <li>We ask GameAnalytics to delete all analytics events linked to that ID and confirm by email within 30 days.</li>
+</ol>
+<p><b>What is deleted:</b> device identifiers and all gameplay events linked to them. <b>What is kept:</b> nothing is kept by us; aggregated statistics that no longer identify you may remain in totals. <b>Advertising data</b> is controlled by Google: you can delete your advertising ID in the Ads settings above at any time (see <a href="https://policies.google.com/technologies/partner-sites">Google’s policy</a>).</p>
 </section>
 
 <section id="ru" lang="ru">
 <h1>Политика конфиденциальности — «Кто стащил одеяло?»</h1>
-<p class="meta">Разработчик: qqx · Контакт: <a href="mailto:m0.dimalebedev@gmail.com">m0.dimalebedev@gmail.com</a> · Обновлено: 29 сентября 2026</p>
+<p class="meta">Разработчик: qqx · Контакт: <a href="mailto:m0.dimalebedev@gmail.com">m0.dimalebedev@gmail.com</a> · Обновлено: 30 сентября 2026</p>
 
 <p>Здесь описано, какие данные обрабатывает мобильная игра «Кто стащил одеяло?» (пакет <code>com.qqx.blanket</code>, «Игра») и зачем. В Игре нет аккаунтов, чатов и покупок. Мы не спрашиваем имя, email, местоположение или контакты.</p>
 
@@ -101,6 +110,15 @@
 
 <h2>9. Контакт</h2>
 <p><a href="mailto:m0.dimalebedev@gmail.com">m0.dimalebedev@gmail.com</a></p>
+<h2 id="delete-ru">10. Как удалить свои данные — «Кто стащил одеяло?» (Who Stole the Blanket?)</h2>
+<p>В Игре (разработчик: qqx) нет аккаунтов, поэтому удаление работает через рекламный ID устройства:</p>
+<ol>
+  <li><b>Данные на устройстве</b> (прогресс, звёзды, подсказки, настройки): удалите Игру или откройте Настройки Android → Приложения → Who Stole the Blanket? → Память → Очистить данные. Удаляются сразу.</li>
+  <li><b>Данные аналитики</b> (GameAnalytics): найдите рекламный ID в Настройки Android → Google → Все сервисы → Реклама (или Настройки → Конфиденциальность → Реклама).</li>
+  <li>Напишите на <a href="mailto:m0.dimalebedev@gmail.com?subject=Delete%20my%20data%20-%20Who%20Stole%20the%20Blanket%3F">m0.dimalebedev@gmail.com</a> с темой «Удалить мои данные — Who Stole the Blanket?» и укажите этот рекламный ID.</li>
+  <li>Мы попросим GameAnalytics удалить все события, связанные с этим ID, и подтвердим по почте в течение 30 дней.</li>
+</ol>
+<p><b>Что удаляется:</b> идентификаторы устройства и все связанные с ними игровые события. <b>Что сохраняется:</b> у нас — ничего; обезличенная общая статистика может остаться в суммарных цифрах. <b>Рекламные данные</b> контролирует Google: рекламный ID можно удалить в настройках рекламы выше в любой момент (см. <a href="https://policies.google.com/technologies/partner-sites">политику Google</a>).</p>
 </section>
 </main>
 </body>
